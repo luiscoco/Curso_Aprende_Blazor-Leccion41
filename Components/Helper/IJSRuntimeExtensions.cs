@@ -8,12 +8,5 @@ namespace Leccion40.Components.Helper
         {
             await jsRuntime.InvokeVoidAsync("showAlert", message);
         }
-
-        public static async Task<string> GetCurrentTime(this IJSRuntime jsRuntime)
-        {
-            string result = await jsRuntime.InvokeAsync<string>("getCurrentTime");
-            return result;
-
-        }
     }
 }
