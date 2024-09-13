@@ -2,7 +2,7 @@
 
 # LECCIÓN 41: Referencia entre Componentes
 
-En esta lección vamos a crear dos Componentes. Un Componente Padre que contiene a un Componente Hijo. Vamos a utilizar una referencia al Componente Hijo para llamar desde el Componente Padre a una función definida en el Componente Hijo.
+En esta lección vamos a crear dos Componentes. Un Componente Padre que contiene a un Componente Hijo. Creamos un referencia al Componente Hijo en el Componente Padre. Vamos a utilizar una referencia al Componente Hijo para llamar desde el Componente Padre a una función definida en el Componente Hijo.
 
 1. Abrir la aplicación con Visual Studio 2022 o VSCode
 
