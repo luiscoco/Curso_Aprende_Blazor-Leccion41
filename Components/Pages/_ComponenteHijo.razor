@@ -1,0 +1,13 @@
+﻿@inject IJSRuntime JSRuntime
+@using Leccion40.Components.Helper
+
+<h3>ComponenteHijo</h3>
+
+@code {
+
+    public async Task ShowAlert()
+    {
+        await JSRuntime.ShowAlert("Hello from Blazor!");
+    }
+
+}

@@ -1,0 +1,14 @@
+﻿@page "/componentepadre"
+
+<h3>ComponentePadre</h3>
+
+<_ComponenteHijo @ref="childComponent"></_ComponenteHijo>
+
+<div class="row">
+    <button class="btn btn-success" @onclick="()=>childComponent.ShowAlert()" style="width: 250px;">Mostrar mensaje</button>
+</div>
+
+
+@code {
+    private _ComponenteHijo? childComponent;
+}
